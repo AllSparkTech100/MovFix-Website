@@ -1,0 +1,23 @@
+@import "../_variable.scss";
+
+.hero {
+  background-image: linear-gradient(40deg, #100f17cb, #10101086),
+    url("/src/Images/hero-bg.jpg");
+  height: 100vh;
+  @include flex;
+  h5 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 5rem;
+  }
+  .under-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    p {
+      color: $clear;
+    }
+  }
+}
